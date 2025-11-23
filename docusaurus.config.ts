@@ -4,20 +4,20 @@ import { themes } from 'prism-react-renderer'
 import social from './data/social'
 import type { GiscusConfig } from './src/components/Comment'
 
-const beian = '闽ICP备2020017848号-3'
-const beian1 = '闽公网安备35021102000847号'
+// const beian = '闽ICP备2020017848号-3'
+// const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
-  title: '愧怍',
-  url: 'https://kuizuo.me',
+  title: '小小王互联网科技',
+  url: 'https://xiaowang69.top',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
-  projectName: 'blog',
+  organizationName: 'littleStu',
+  projectName: 'littleStu',
   customFields: {
-    bio: '道阻且长，行则将至',
+    bio: '哪有什么做不到，只是没找对路',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      '是一个由愧怍创建的个人博客，主要分享网络安全知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
     // announcementBar: {
